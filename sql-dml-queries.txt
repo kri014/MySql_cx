@@ -18,4 +18,42 @@
 ** find all phones in the price range of 10000 and 20000
 ** find all phones with rating >80 and price <25000
 ** find all samsung phones with ram 8GB
-** find all samsung phones with snapdragon processor  
+** find all samsung phones with snapdragon processor 
+- Query Execution Order
+** find brands who sells phones with  price > 50000
+-IN and NOT IN 
+----------------------------------------------------------------------------
+FRANK JOHN'S WICKED GRAVE HAUNTS SEVERaL DULL OWIS
+---------------------------------------------------------------------------
+- UPDATE query to update row(s)
+- DELETE
+** delete all the phones price > 200000
+---------------------------------------------------------------------------- Types of functions 
+- Aggregate Functions 
+- MAX/MIN
+** find the minimum and maximum price
+** find the price of costlier samsung phone 
+- AVG
+** find avg rating of apple phones 
+- SUM
+- COUNT
+** find the number of oneplus phones 
+- COUNT(DISTINCT)
+** find the no. of brands available 
+- STD
+** find std of screen sizes 
+- VAR
+---------------------------------------------------------------------------
+- Scalar Fuction
+- ABS
+** find diff from age rating of all samsung phones 
+- ROUND
+** Round the PPI to 1 DECIMAL place 
+- CEIL/FLOOR
+** floor/ceil the rating 
+---------------------------------------------------------------------------
+Practice
+** Find the average battery capacity and the average primary rear camera resolution for all smartphones with a price greater than or equal to 100000
+** Find the avearge internal memeory capicity of smartphones that have a refresh rate of 120Hz or higher and a front facing camera resolution graeter than or equal to 20 megapixel
+** find the number of smartphones with 5G capablity
+ 
