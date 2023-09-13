@@ -1,3 +1,21 @@
 - insert
 - insert variation
-- insert multiple 
+- insert multiple
+-----------------------------------------------------------------------------
+- how to import data in mysql workbench
+-----------------------------------------------------------------------------
+- select all
+- filter cols
+- alias -> renaming cols
+- creating expression using cols
+- constants
+- Distincts (unique) values from a cols
+- Distincts combos
+- filter rows where claues
+** find all samsung phones 
+** find all phones with price> 50000
+- BETWEEN 
+** find all phones in the price range of 10000 and 20000
+** find all phones with rating >80 and price <25000
+** find all samsung phones with ram 8GB
+** find all samsung phones with snapdragon processor  
