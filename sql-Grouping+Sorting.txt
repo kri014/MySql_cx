@@ -20,3 +20,16 @@ Grouping Data
 8. Group smartphone by the brand, and find the brand with the highest number of model that have both NFC and an IR blaster
 9. find all samsung 5g enable smartphones and find out the average price for NFC and Non-NFC
 10 Find the phone name,price of costlier phone 
+
+**************************************************************************** HAVING clause
+1. find the avg rating of smartphones brands which have more than 20 phones 
+2. find the top 3 brands with the highest avg ram that have a refresh rate of at least 90 Hz and fast charging availbe and dont consider brands which have less than 10 phones 
+3. find the avg price of all the phones brand with avg rating> 70 and num_phones more than 10 among all 5g enable phones 
+
+****************************************************************************
+Practice 
+- find the top 5 batsman
+- find the 2nd highest 6 hitter in ipl
+- find virat kohli performance against all ipl team
+- find top 10 batsman with centuries in ipl 
+- find the top 5 batsman with highest strike rate who have played a min of 1000 balls 
