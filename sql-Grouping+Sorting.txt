@@ -1,0 +1,17 @@
+****************************************************************************
+Sorting Data
+1. find top 5 samsung phones with biggest screen size
+2. sort all the phones with in decending order of number of total cameras
+3. sort data on the basis of ppi in decreasing order
+4. find the phone with 2nd largest battery
+5. find the name and rating of the wrost rated apple phone
+6. sort phones alphabatically and then on the basis of rating in desc order 
+7. sort phones alphabatically and then on the basis of price in asc order
+****************************************************************************
+Grouping Data 
+1. Group smartphones by brand and get the count,average price, max price, avg screen size and avg battery capacity 
+--> Group By Animation
+2. Group smartphones by whether they have an NFC and get the average price and rating 
+3. Group smartphones by the extended memeory availabale and get the average price
+4. Group smartphones by the brand and the processor brand and get the count of model and the average primary camera resolution(rear)
+5. find top 5 most costly phone brands 
