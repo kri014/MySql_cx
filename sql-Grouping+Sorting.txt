@@ -15,3 +15,8 @@ Grouping Data
 3. Group smartphones by the extended memeory availabale and get the average price
 4. Group smartphones by the brand and the processor brand and get the count of model and the average primary camera resolution(rear)
 5. find top 5 most costly phone brands 
+6. which brand makes a smallest screen smartphones
+7. Avg price of 5G phones vs avg price of non 5g phones
+8. Group smartphone by the brand, and find the brand with the highest number of model that have both NFC and an IR blaster
+9. find all samsung 5g enable smartphones and find out the average price for NFC and Non-NFC
+10 Find the phone name,price of costlier phone 
