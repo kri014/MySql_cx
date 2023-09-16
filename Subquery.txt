@@ -1,0 +1,7 @@
+SQL Subquery 
+---------------------------------------------------------------------------
+** Independent Subquery - Scalar Subquery
+1. Find the movies with highest profit (vs order by)
+2. Find how many movies have a rating > the average of all the movies rating (find the count average movies )
+3. Find the highest rated movies of 2000
+4. Find the highest rated movies among all movies whose number of votes are > the dataset avg votes  
