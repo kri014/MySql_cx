@@ -5,3 +5,17 @@ SQL Subquery
 2. Find how many movies have a rating > the average of all the movies rating (find the count average movies )
 3. Find the highest rated movies of 2000
 4. Find the highest rated movies among all movies whose number of votes are > the dataset avg votes  
+-----------------------------------------------------------------------------
+** Independent Subquery - Row Subquery (One Col Multi Rows)
+1. find all users whow never ordered 
+2. Find all movies made by top 3 directors (in term of all gross income)
+3. find all moveis of all those actors whose filmography avg rating >8.5 (take 25000 votes as cutoff)
+--------------------------------------------------------------------------
+** Independent Subquery - Table Subquery (Multi Col Multi Rows)
+1. Find the most profitable movies of each year
+2. Find the highest rated movies of each genere votes cutoff of 25000
+3. Find the highest grossing movies of top 5 actors/director combo in term of total gross income  
+----------------------------------------------------------------------
+** Correlated Subquery
+1. Find all the movies that have a rating higher than the average rating of movies in tha same genre [Animation]
+2. Find the favorite food of each customer.
