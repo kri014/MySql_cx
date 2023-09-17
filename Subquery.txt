@@ -19,3 +19,29 @@ SQL Subquery
 ** Correlated Subquery
 1. Find all the movies that have a rating higher than the average rating of movies in tha same genre [Animation]
 2. Find the favorite food of each customer.
+
+----------------------------------------------------------------------
+****************---Usage of subquery**********************************
+*** 1. Usage with SELECT 
+
+1. Get the percetage of votes for each movies compared to the total number of votes 
+2. Display all movies name, genere, score and avg(score) of genre
+
+-> why this is inefficient?
+
+*** 2. Usage with FROM 
+1. Display average rating of all the resturants
+
+*** 3. Usage with HAVING
+1. find genres having avg score > avg score of all the movies  
+
+*** 4. Subquery In INSERT
+
+1. Populate a already create loyal_customers table with records of only those customer who have ordered food more than 3 times
+
+*** 5. Subquery in UPDATE 
+1. Populate the money col of loyal_customers table using the orders table.Proviide a 10% app money to all customers based on theire order value.  
+
+** 6. Subquery in Delete
+1. Delete all customers records who have never ordered  
+
