@@ -1,0 +1,28 @@
+**********************Window function******************************
+
+1. Aggregate function with OVER()
+ 
+1.1 Find all the students who have marks higher than the average marks of respective branch
+---------------------------------------------------------------
+2. RANK/DENSE_RANK/ROW_RANK
+2.1. Find top 2 most paying customer of each month
+2.2. create roll no from branch and marks 
+
+-----------------------------------------------------------------------
+3. FIRST_VALUE/LAST_VALUE/NTH_VALUE
+
+1. Find the branch toppers
+2. FRAME clause
+3. Find the last guy of each branch
+4. Alternative way of writing Window Functions
+5. Find the 2nd last guy of Each branch, 5th topper of branch
+----------------------------------------------------------------------*** Frame
+-- next level of grouping in window  
+-- 1. ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW (1st and current)
+-- 2. ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING (just beofore , current, just after)
+-- 3. ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING (1st, last)
+-- 4. ROWS BETWEEN 3 PRECEDING AND 3 FOLLOWING (3 before, current, 3 last) 
+
+----------------------------------------------------------------------4. LAG/LEAD
+1. Find the MOM revenue growth of zomato
+  
