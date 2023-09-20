@@ -25,4 +25,44 @@
 
 ----------------------------------------------------------------------4. LAG/LEAD
 1. Find the MOM revenue growth of zomato
+
+********************Window Function-2*********************************
+
+1. Ranking 
+--> Ranking within any categorical columns
+ 1.1. find the top 5 batstman for each team 
+
+2. Cummulative Sum 
+
+-- 2.1 find the runs make by V-Kohli till 50th,100th,200th match 
+
+3. Cumulative Average 
+-- 3.1. Find the career avg run kohli 
+
+4. Running Average
+-- 4.1 find the running avg of kohli take 10 matches as window 
+   
+5. Percent of Total
+-- 
+
+6. Percentage Change 
+-- 
+
+7. Percentile & Quartile (PERCENTLE_DISC,PERCENTILE_CONT)
+--1. Find the median marks of all the student
+--2. Find branch wise median of student marks
+--3. find the data without outliers
+--4. find the value of outliers 
+
+8. Segmentation (NTILE-> small small bucket within the data ) 
+-- 1. divide the marks dataset into marks bucket
+-- 2. use smartphones and on the basis of price form budget,mid-range,premium phone 
+
+9. Cumulative Distribution (CUME_DIST)
+-- 9.1 find the number of student greater than 90 percentile 
+
+10. 
+
+
+
   
