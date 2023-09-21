@@ -1,0 +1,22 @@
+************************ String Datatype******************************
+ 1. Wild Cards
+-- Using LIKE clause 
+-- 1. Percent sign (%)-> 0,1,more number of character 
+-- 2. Underscore sign (_) -> one character 
+
+2. String Function 
+-- 1. UPPER()/LOWER()
+-- 2. CONCAT()/CONCAT_WS("-",string1,string2)
+-- 3. SUBSTR-> substring (string,position,number of string)
+-- 4. REPLACE
+-- 5. REVERSE/palindrome 
+-- 6. LENGTH/ CHARLENGTH
+-- 7. INSERT(str,pos,len,newstr)
+-- 8. LEFT/RIGHT
+-- 9. REPEATE
+-- 10. TRIM /LTRIM/RTRIM 
+-- 11. SUBSTRING_INDEX(split)
+-- 12. STRCMP-(string comparision)->0,1,-1
+-- 13. LOCATE 
+-- 14. LPAD/RPAD
+

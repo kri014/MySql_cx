@@ -61,7 +61,8 @@
 9. Cumulative Distribution (CUME_DIST)
 -- 9.1 find the number of student greater than 90 percentile 
 
-10. 
+10. Partition by multiple columuns
+--10.1 Find the cheapest price of the flights  
 
 
 

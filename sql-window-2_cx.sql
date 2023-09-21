@@ -140,3 +140,33 @@ END AS "phone_price_range"
 FROM(SELECT brand_name,model,price, 
 	NTILE(3) OVER(ORDER BY price) AS "bucket"
 	FROM smartphones) t
+
+
+SELECT brand_name,model,price,
+CASE 
+   WHEN bucket = 1 THEN "budget"
+   WHEN bucket = 2 THEN "mid_range"
+   WHEN bucket = 3 THEN "premium"
+END AS "phone_price_range"
+FROM(SELECT brand_name,model,price, 
+	NTILE(3) OVER(PARTITION BY brand_name ORDER BY price) AS "bucket"
+	FROM smartphones) t
+    
+-- 9. Cumulative Distribution (CUME_DIST)
+-- 9.1 find the number of student greater than 90 percentile 
+
+SELECT * FROM(SELECT *,
+		CUME_DIST() OVER(ORDER BY marks) AS "percentile"
+		FROM marks) t 
+WHERE t.percentile>0.9
+
+-- 10. Partition by multiple columuns 
+-- 10.1 Find the cheapest price of the flights
+
+use flights 
+
+SELECT * FROM (SELECT source,destination,airline, AVG(price) AS "avg_price",
+			DENSE_RANK() OVER (PARTITION BY source,destination ORDER BY avg_price) AS "ranking" 
+			FROM flights
+			GROUP BY source,destination,airline ) t
+WHERE t.ranking<2
